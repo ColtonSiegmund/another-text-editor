@@ -13,7 +13,7 @@ const initdb = async () =>
   });
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
-export const saveContentToDb = async (content) => {
+export const putDb = async (content) => {
   try {
     const dbName = 'jate';
     const dbVersion = 1;
